@@ -1,0 +1,39 @@
+.messagerow {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+
+    &.mine {
+        .messagerow__data {
+            flex-flow: row-reverse;
+            margin-left: auto;
+        }
+
+        .messagerow__body {
+            background-color: #fff;
+            color: black;
+        }
+    }
+
+    &.editing {
+        .message-row_body {
+            opacity: 0.5;
+        }
+    }
+
+    &__data {
+        display: flex;
+        align-items: center;
+    }
+
+    &__body {
+        padding: 15px;
+        background-color: #eee;
+        border-radius: 20px;
+    }
+
+    &__date {
+        padding: 10px;
+        opacity: 0.5;
+    }
+}

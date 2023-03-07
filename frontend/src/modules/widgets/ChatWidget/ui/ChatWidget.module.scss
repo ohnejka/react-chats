@@ -1,0 +1,31 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 4px;
+  min-width: 600px;
+  min-height: 400px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+    height: 100%;
+  }
+
+  &__form {
+    display: flex;
+  }
+
+  &___input {
+    flex: 1;
+    padding: 15px;
+  }
+
+  &__send {
+    display: flex;
+    align-self: center;
+  }
+}
